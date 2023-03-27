@@ -21,6 +21,11 @@ body > div {
     background-color: #1F2937;
 }
 
+h4 {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
 .header-links {
     display: flex;
     gap: 16px;
@@ -68,11 +73,6 @@ div.intro-left {
     max-width: 600px;
 }
 
-img {
-    width: 300px;
-    height: auto;
-}
-
 button {
     background-color: #3882F6;
     border-radius: 6px;
@@ -87,7 +87,37 @@ button {
     align-self: flex-start;
 }
 
-.intro-img {
+.intro-img > img {
     width: 300px;
+    height: auto;
 }
+
+.icon-header, .icons {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.icons {
+    display: flex;
+    gap: 32px;
+}
+
+.icon > img {
+    width: 150px;
+    height: auto;
+    border: 5px solid #3882F6;
+    border-radius: 8px;
+}
+
+.icon > p {
+    text-align: center;
+    max-width: 150px;
+}
+
 
