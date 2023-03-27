@@ -120,4 +120,29 @@ h3 {
     max-width: 150px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 64px 150px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    align-self: flex-start;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.quote > p {
+    margin: 10px 0px;
+}
 
