@@ -125,7 +125,7 @@ h3 {
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
-    padding: 64px 150px;
+    padding: 64px 250px;
 }
 
 .quote-text {
@@ -144,5 +144,37 @@ h3 {
 
 .quote > p {
     margin: 10px 0px;
+}
+
+.sign-up {
+    display: flex;
+    align-self: center;
+    width: 600px;
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 64px 150px;
+    padding: 30px 100px;
+    color: #E5E7EB;
+}
+
+.sign-up-text > .big {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 4px 0px;
+}
+
+.sign-up-text > .small {
+    font-size: 14px;
+    margin: 4px 0px;
+}
+
+.sign-up-button {
+    color: #E5E7EB;
+    border: 3px solid #E5E7EB;
+}
+
+.footer {
+    justify-content: center;
 }
 
