@@ -176,5 +176,8 @@ h3 {
 
 .footer {
     justify-content: center;
+    padding: 24px 150px;
+    color: #E5E7EB;
+    font-size: 14px;
 }
 
